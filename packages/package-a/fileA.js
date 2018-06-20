@@ -1,1 +1,1 @@
-module.exports = "test feature a1";
+module.exports = "test feature a1 testß";
