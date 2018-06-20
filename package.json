@@ -1,21 +1,21 @@
 {
-  "name": "stardust",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "lerna publish --npm-tag=hotfix"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "npm": "^6.1.0",
-    "to": "^0.2.9",
-    "update": "^0.7.4"
-  },
-  "devDependencies": {
-    "lerna": "^2.11.0"
-  }
+    "name": "stardust",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "lerna publish --canary=hotfix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "npm": "^6.1.0",
+        "to": "^0.2.9",
+        "update": "^0.7.4"
+    },
+    "devDependencies": {
+        "lerna": "^2.11.0"
+    }
 }
